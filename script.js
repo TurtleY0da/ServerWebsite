@@ -1,2 +1,0 @@
-// ServerSite by Timothy Veugelers
-

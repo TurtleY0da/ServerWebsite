@@ -10,16 +10,18 @@ body {
     margin: 0px;
 }
 
-#topPanel{
-    background: linear-gradient(rgb(255, 255, 255), rgb(216,216,216));
-    padding: 10px;
+#topPanel {
+    background: linear-gradient(rgb(255, 255, 255), rgb(216, 216, 216));
 }
 
-#cornerLogo{
+#cornerLogo {
     width: 200px;
+    margin: 10px;
 }
 
-#mainBody{
+
+
+#mainBody {
     background: rgba(255, 255, 255, 0.541);
     margin: 0px auto 100px;
     padding: 50px 200px;
