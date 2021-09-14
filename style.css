@@ -1,0 +1,18 @@
+html {
+    /* server background */
+    background: url("/img/serverpicture.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    /* text */
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainBody{
+    background: white;
+    margin: 100px auto;
+    padding: 50px 100px;
+    width: fit-content;
+    text-align: center;
+}

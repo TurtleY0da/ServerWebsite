@@ -1,0 +1,12 @@
+html {
+    /* server background */
+    background: url("/img/serverpicture.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    /* background */
+
+    /* text */
+    font-family: 'Roboto', sans-serif;
+}
