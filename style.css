@@ -20,11 +20,11 @@ body {
     margin: 10px;
 }
 
-#mainJPG{
+#mainJPG {
     width: 650px;
 }
 
-#mainLogo{
+#mainLogo {
     display: flex;
     justify-content: center;
 }
@@ -39,23 +39,24 @@ body {
     border-radius: 7px;
 }
 
-#rulesButton{
+#rulesButton {
     background: #11999ea1;
     transition: 0.3s;
     border: 0px;
     box-shadow: 0px 0px 3px #40514E;
+    padding: 5px 100px;
 }
 
-#rulesButton:hover{
-    cursor:pointer;
+#rulesButton:hover {
+    cursor: pointer;
     background: #40514Ea1;
-    color: #30E3CA;
+    color: #b7ebe4;
 }
 
-#credit{
+#credit {
     font-size: 14px;
 }
 
-hr{
+hr {
     border: 1px solid #40514E;
 }
