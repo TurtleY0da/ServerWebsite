@@ -11,7 +11,8 @@ body {
 }
 
 #topPanel {
-    background: linear-gradient(rgb(255, 255, 255), rgb(216, 216, 216));
+    background: linear-gradient(#30E3CA, rgb(143, 167, 162));
+    box-shadow: 0px 0px 7px black;
 }
 
 #cornerLogo {
@@ -19,12 +20,42 @@ body {
     margin: 10px;
 }
 
+#mainJPG{
+    width: 650px;
+}
 
+#mainLogo{
+    display: flex;
+    justify-content: center;
+}
 
 #mainBody {
-    background: rgba(255, 255, 255, 0.541);
-    margin: 0px auto 100px;
-    padding: 50px 200px;
+    background: #e4f9f5b9;
+    margin: 50px auto;
+    padding: 50px 200px 25px;
     width: fit-content;
     text-align: center;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 7px;
+}
+
+#rulesButton{
+    background: #11999ea1;
+    transition: 0.3s;
+    border: 0px;
+    box-shadow: 0px 0px 3px #40514E;
+}
+
+#rulesButton:hover{
+    cursor:pointer;
+    background: #40514Ea1;
+    color: #30E3CA;
+}
+
+#credit{
+    font-size: 14px;
+}
+
+hr{
+    border: 1px solid #40514E;
 }
