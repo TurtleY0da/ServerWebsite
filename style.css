@@ -7,12 +7,22 @@ html {
 body {
     /* text */
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#topPanel{
+    background: linear-gradient(rgb(255, 255, 255), rgb(216,216,216));
+    padding: 10px;
+}
+
+#cornerLogo{
+    width: 200px;
 }
 
 #mainBody{
-    background: white;
-    margin: 100px auto;
-    padding: 50px 100px;
+    background: rgba(255, 255, 255, 0.541);
+    margin: 0px auto 100px;
+    padding: 50px 200px;
     width: fit-content;
     text-align: center;
 }
